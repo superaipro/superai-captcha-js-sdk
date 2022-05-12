@@ -5,9 +5,8 @@ Captcha service Node SDK
 ## Installation
 
 ```shell
-npm i captcha-sdk-ts; // npm 
-yarn add captcha-sdk-ts; // yarn
-pnpm add captcha-sdk-ts; // pnpm
+npm i superai-captcha-sdk; // npm 
+yarn add superai-captcha-sdk; // yarn
 ```
 
 
