@@ -30,7 +30,7 @@ async function test() {
   const userInfo = await captcha.userInfo();
   console.log('userInfo: ', userInfo);
 
-  const params: Request = {
+  const params = {
     proxy: '',
     proxytype: 'http',
     userAgent:
