@@ -1,0 +1,32 @@
+{
+  "name": "superai-captcha-sdk",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "version": "npm version -m \"New version: %s\"",
+    "push": "git push origin master && git push origin --tags",
+    "release": "rm -rf dist && npm run build && npm publish"
+  },
+  "author": "superai",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/retry": "^0.12.2",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": ">=5.16.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.31",
+    "axios": "^0.27.2",
+    "axios-retry": "^3.2.5",
+    "retry": "^0.13.1"
+  }
+}
